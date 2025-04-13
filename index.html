@@ -10,9 +10,27 @@
   </head>
   <body class="is-preload">
     <!-- Header -->
-    <div id="header">
-      <span class="logo icon" style="background-color: #712f7c">ABT</span>
-      <h1>ART_BY_TIFE</h1>
+    <div
+      id="header"
+      style="
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(
+            rgba(16, 29, 44, 0.2),
+            rgba(66, 10, 172, 1)
+          ),
+          url(../img/hero.jpeg), url(./images/book.jpeg);
+        color: white;
+        text-align: center;
+        padding: 3rem 6rem;
+      ">
+      <span
+        class="logo icon"
+        style="background-color: #712f7c; border-radius: 50%"
+        >ABT</span
+      >
+      <h1 style="margin-top: 2rem">ART_BY_TIFE</h1>
       <p style="font-size: 2rem">Welcome to ResinCraft</p>
       <p style="font-size: 1.5rem">--Where Art Meet Craft--</p>
       <p>
@@ -212,6 +230,7 @@
                   <th>s/n</th>
                   <th>Name</th>
                   <th>Description</th>
+                  <th>Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -332,7 +351,10 @@
 
         <ul class="actions special">
           <li>
-            <a href="https://wa.link/mnein4" class="button"
+            <a
+              href="https://wa.link/mnein4"
+              class="button"
+              style="background-color: #7f01c2"
               >GET IN TOUCH WITH US</a
             >
           </li>
@@ -354,7 +376,7 @@
           platforms listed below.
         </p>
 
-        <form method="post" action="mailto:preciousboluwatife@gmail.com">
+        <form method="post" action="https://formspree.io/f/xjkypqlr">
           <div class="row">
             <div class="col-6 col-12-mobilep">
               <input type="text" name="name" placeholder="Name" />
@@ -370,7 +392,12 @@
             </div>
             <div class="col-12">
               <ul class="actions special">
-                <li><input type="submit" value="Send Message" /></li>
+                <li>
+                  <input
+                    type="submit"
+                    value="Send Message"
+                    style="color: black" />
+                </li>
               </ul>
             </div>
           </div>
@@ -412,9 +439,7 @@
 
         <ul class="copyright">
           <li>&copy; Copyright 2025. All rights reserved.</li>
-          <li>
-            Site Design: Mercy Emmanuel Olaniyi & Omidele Precious Boluwatife
-          </li>
+          <li>Site Design: Mercy Emmanuel Olaniyi</li>
         </ul>
       </div>
     </div>
